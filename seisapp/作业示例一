@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<JOB VERSION="2.0">
+	<MOUDLE status="true" name="Geodiskin" VERSION="1.01">
+		<PARAMETER VALID="TRUE" name="Filename" uiname="Filename" tag="TRUE">123</PARAMETER>
+		<PARAMETER VALID="TRUE" name="First keyword code" uiname="First keyword code" tag="TRUE">Null</PARAMETER>
+		<PARAMETER VALID="TRUE" name="First keyword range" uiname="First keyword range" tag="TRUE">0</PARAMETER>
+		<PARAMETER VALID="TRUE" name="Second keyword code" uiname="Second keyword code" tag="TRUE">Trace</PARAMETER>
+		<PARAMETER VALID="TRUE" name="Second keyword range" uiname="Second keyword range" tag="TRUE">0</PARAMETER>
+		<PARAMETER VALID="TRUE" name="Third keyword code" uiname="Third keyword code" tag="TRUE">Null</PARAMETER>
+		<PARAMETER VALID="TRUE" name="Third keyword range" uiname="Third keyword range" tag="TRUE">0</PARAMETER>
+		<PARAMETER VALID="TRUE" name="Fourth keyword code" uiname="Fourth keyword code" tag="TRUE">Null</PARAMETER>
+		<PARAMETER VALID="TRUE" name="Fourth keyword range" uiname="Fourth keyword range" tag="TRUE">0</PARAMETER>
+		<PARAMETER VALID="TRUE" name="Fifth keyword code" uiname="Fifth keyword code" tag="TRUE">Null</PARAMETER>
+		<PARAMETER VALID="TRUE" name="Fifth keyword range" uiname="Fifth keyword range" tag="TRUE">0</PARAMETER>
+		<PARAMETER VALID="TRUE" name="Gather flag" uiname="Gather flag" tag="TRUE">Source</PARAMETER>
+		<PARAMETER VALID="TRUE" name="Trace type" uiname="Trace type" tag="TRUE">1 Valid trace</PARAMETER>
+		<PARAMETER VALID="TRUE" name="Use same range for all files" uiname="Use same range for all files" tag="TRUE">No</PARAMETER>
+		<PARAMETER VALID="TRUE" name="Time window input" uiname="Time window input" tag="TRUE">0</PARAMETER>
+		<PARAMETER VALID="TRUE" name="Select header word" uiname="Select header word" tag="TRUE">Null</PARAMETER>
+		<PARAMETER VALID="TRUE" name="Select header range" uiname="Select header range" tag="TRUE">0</PARAMETER>
+		<PARAMETER VALID="TRUE" name="Random select keyword" uiname="Random select keyword" tag="TRUE">Null</PARAMETER>
+		<PARAMETER VALID="TRUE" name="Random select range" uiname="Random select range" tag="TRUE">-9999</PARAMETER>
+		<PARAMETER VALID="TRUE" name="Gather input" uiname="Gather input" tag="TRUE">No</PARAMETER>
+		<PARAMETER VALID="TRUE" name="Gather input tarces" uiname="Gather input tarces" tag="TRUE">1</PARAMETER>
+		<PARAMETER VALID="TRUE" name="Recreate index" uiname="Recreate index" tag="TRUE">No</PARAMETER>
+		<PARAMETER VALID="TRUE" name="Header only" uiname="Header only" tag="TRUE">No</PARAMETER>
+		<PARAMETER VALID="TRUE" name="Sort sequence" uiname="Sort sequence" tag="TRUE">False,False,False,False,False</PARAMETER>
+		<PARAMETER VALID="TRUE" name="Head inconsistency check" uiname="Head inconsistency check" tag="TRUE">1</PARAMETER>
+		<PARAMETER VALID="TRUE" name="Description" uiname="Description" tag="TRUE">File Input during GeoEast progress</PARAMETER>
+	</MOUDLE>
+	<JOBINFORMATION>
+		<PROJECT>BGPCUP2023</PROJECT>
+		<SURVEY>process4-vsp-rtm</SURVEY>
+		<LINE/>
+		<USER/>
+		<HOSTNAME/>
+		<DBNAME>ndp_BGPCup</DBNAME>
+		<DBUSER/>
+		<DBPWD/>
+	</JOBINFORMATION>
+	<VARDEFINE TYPE="Cross Unit" ITERATOR="1">
+		<COLHEADER>
+			<VARCOL VARTYPE="VARIABLE" TYPE="String" DEFVALUE="">_UNIT_1234_LINE</VARCOL>
+			<VARCOL VARTYPE="VARIABLE" TYPE="String" DEFVALUE="">Job Name</VARCOL>
+		</COLHEADER>
+		<VARTABLE>
+			<ROW>
+				<COL/>
+				<COL/>
+			</ROW>
+		</VARTABLE>
+	</VARDEFINE>
+	<PLOT>
+		<POM IDX="1" ID="1">
+			<RECT>
+				<X>750</X>
+				<Y>240</Y>
+			</RECT>
+		</POM>
+	</PLOT>
+</JOB>

@@ -1,0 +1,46 @@
+# 忽略Python缓存文件
+__pycache__/
+*/__pycache__
+*/*/__pycache__
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+eggs/
+.eggs/
+lib/
+lib64/
+
+# 忽略环境/虚拟环境相关文件
+venv/
+env/
+
+# 忽略日志和临时文件
+*.log
+*.swp
+*.swo
+*.swn
+*.zip
+*.pid
+
+# 忽略媒体文件，这些文件应该由Web服务器和云存储服务来处理
+media/
+
+# 忽略静态文件收集目录
+staticfiles/
+dist
+build
+
+# 忽略本地设置文件（如果有）
+local_settings.py
+
+# 忽略IDE和编辑器生成的文件
+.vscode/
+.idea/
+
+# 忽略Node.js相关文件（如果使用npm或Yarn）
+node_modules/
+package-lock.json
+
+# 忽略Django文件和测试数据库
+*.sqlite3
